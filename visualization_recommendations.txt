@@ -1,0 +1,28 @@
+```json
+{
+  "Categorical Attribute": {
+    "Pie Chart": ["Brand"],
+    "Reason": "Pie charts are effective for showing the proportions of different car brands in the dataset. (Accepts categorical data, 1 attribute)"
+  },
+  "Numerical Attribute": {
+    "Box Plot": ["Mileage"],
+    "Reason": "Box plots are ideal for displaying the distribution and identifying outliers in car mileage data. (Accepts numerical data, 1 attribute)"
+  },
+  "Multiple Attribute": {
+    "Heatmap": ["Kilometers_Driven", "Mileage", "Engine", "Power", "Seats"],
+    "Reason": "Heatmaps provide a clear visual representation of the relationships and correlations between multiple numerical attributes. (Accepts numerical data, multiple attributes)"
+  },
+  "3D Plot": {
+    "3D Plot": ["Kilometers_Driven", "Mileage", "Engine"],
+    "Reason": "3D plots are suitable for visualizing the interactions between three numerical attributes simultaneously. (Accepts categorical or numerical data, 3 attributes)"
+  },
+  "Word Cloud": {
+    "Word Cloud": ["Fuel_Type"],
+    "Reason": "Word clouds effectively highlight the frequency of different fuel types used by cars in the dataset. (Accepts categorical or text data, 1 attribute)"
+  },
+  "World Heatmap": {
+    "World Heatmap": [],
+    "Reason": ""
+  }
+}
+```
